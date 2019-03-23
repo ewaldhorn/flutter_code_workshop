@@ -24,4 +24,6 @@ flutter:
   assets:
     - images/flutter_logo.png
     - images/flutter_logo_no_background.png
+    - images/cat_tongue.gif
+    - images/tears_logo.jpeg
 

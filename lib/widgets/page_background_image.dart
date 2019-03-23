@@ -10,7 +10,7 @@ class PageBackgroundImage extends StatelessWidget {
     return Image.asset(assetPath,
         fit: BoxFit.cover,
         filterQuality: FilterQuality.low,
-        color: Color.fromARGB(120, 0, 0, 0),
+        color: Color.fromARGB(175, 0, 0, 0),
         colorBlendMode: BlendMode.darken,
         height: double.infinity,
         width: double.infinity);

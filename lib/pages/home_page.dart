@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
+import 'package:flutter_talk_mar_2019/pages/gif_border_page.dart';
+import 'package:flutter_talk_mar_2019/pages/gif_page.dart';
+import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
+import 'package:flutter_talk_mar_2019/pages/images_page.dart';
+import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,7 +17,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   GlobalKey<ScaffoldState> scaffoldStateKey = GlobalKey();
 
-  int index = 14;
+  int index = 0;
 
   Widget get page => items
       .firstWhere((item) => item == null ? false : item.index == index)
@@ -21,27 +26,40 @@ class _HomePageState extends State<HomePage> {
   List<MenuItem> items = [
     MenuItem(
         index: 0,
-        icon: Icons.color_lens,
-        text: "Colour Picker",
-        page: ColourPickerPage()),
-    MenuItem(index: 1, icon: Icons.headset, text: "", page: null),
-    MenuItem(index: 2, icon: Icons.pie_chart, text: "", page: null),
-    MenuItem(index: 3, icon: Icons.folder_special, text: "", page: null),
-    MenuItem(index: 4, icon: Icons.dashboard, text: "", page: null),
+        icon: Icons.label_outline,
+        text: "Hello World",
+        page: HelloWorldPage()),
+    MenuItem(
+        index: 1, icon: Icons.color_lens, text: "Images", page: ImagesPage()),
+    MenuItem(index: 2, icon: Icons.pie_chart, text: "Gifs", page: GifPage()),
+    MenuItem(
+        index: 3,
+        icon: Icons.folder_special,
+        text: "More Gifs",
+        page: GifBorderPage()),
+    MenuItem(
+        index: 4,
+        icon: Icons.dashboard,
+        text: "Images. Revisited.",
+        page: ImagesRevisitedPage()),
     MenuItem(index: 5, icon: Icons.access_alarm, text: "", page: null),
     MenuItem(index: 6, icon: Icons.keyboard_hide, text: "", page: null),
     MenuItem(index: 7, icon: Icons.battery_charging_full, text: "", page: null),
     MenuItem(index: 8, icon: Icons.rate_review, text: "", page: null),
     MenuItem(index: 9, icon: Icons.call_end, text: "", page: null),
-    MenuItem(index: 10, icon: Icons.label_outline, text: "", page: null),
+    MenuItem(
+        index: 10,
+        icon: Icons.headset,
+        text: "Stateless Page",
+        page: StatelessPage()),
     MenuItem(index: 11, icon: Icons.edit, text: "", page: null),
     MenuItem(index: 12, icon: Icons.map, text: "", page: null),
     MenuItem(index: 13, icon: Icons.memory, text: "", page: null),
     MenuItem(
         index: 14,
         icon: Icons.move_to_inbox,
-        text: "Stateless Page",
-        page: StatelessPage()),
+        text: "Colour Picker",
+        page: ColourPickerPage()),
   ];
 
   void drawerTogglePressed() => scaffoldStateKey.currentState.openDrawer();

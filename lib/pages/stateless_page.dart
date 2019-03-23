@@ -4,7 +4,7 @@ import 'package:flutter_talk_mar_2019/widgets/page_background_image.dart';
 class StatelessPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final widgetWidth = 260.0;
+    const widgetWidth = 260.0;
 
     return Stack(alignment: AlignmentDirectional.center, children: [
       PageBackgroundImage('images/flutter_logo_no_background.png'),
