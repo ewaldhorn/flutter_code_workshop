@@ -9,6 +9,7 @@ import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_blend_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
+import 'package:flutter_talk_mar_2019/pages/music_page.dart';
 import 'package:flutter_talk_mar_2019/pages/snacks_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateful_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
@@ -86,7 +87,11 @@ class _HomePageState extends State<HomePage> {
         icon: Icons.map,
         text: "Image Clipping",
         page: ClippingPage()),
-    MenuItem(index: 13, icon: Icons.memory, text: "", page: null),
+    MenuItem(
+        index: 13,
+        icon: Icons.surround_sound,
+        text: "Music!",
+        page: MusicPage()),
     MenuItem(
         index: 14,
         icon: Icons.move_to_inbox,

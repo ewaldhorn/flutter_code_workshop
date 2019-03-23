@@ -12,6 +12,8 @@ dependencies:
 
   cupertino_icons: ^0.1.2
 
+  audioplayers: ^0.7.8
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -27,6 +29,8 @@ flutter:
     - images/cat_tongue.gif
     - images/tears_logo.jpeg
     - images/dogincar.jpg
+    - assets/pimpoy.mp3
+    - assets/off_limits.mp3
 
   fonts:
     - family: Merienda

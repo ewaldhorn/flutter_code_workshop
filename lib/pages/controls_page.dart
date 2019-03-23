@@ -32,7 +32,35 @@ class ControlsPage extends StatelessWidget {
                       color: Colors.orange,
                       style: BorderStyle.solid,
                       width: 2))),
-          obscureText: true)
+          obscureText: true),
+      Container(child: DemoSlide(), margin: EdgeInsets.fromLTRB(0, 30, 0, 0))
     ]));
+  }
+}
+
+class DemoSlide extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return _DemoSlideState();
+  }
+}
+
+class _DemoSlideState extends State<DemoSlide> {
+  double slideValue = 10.0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Slider(
+        divisions: 100,
+        label: "${slideValue.toStringAsFixed(0)}",
+        value: slideValue,
+        min: 0,
+        max: 100,
+        onChanged: (newValue) {
+          setState(() {
+            slideValue = newValue;
+          });
+        },
+        activeColor: Colors.blue[900]);
   }
 }
