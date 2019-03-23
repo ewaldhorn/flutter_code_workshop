@@ -3,6 +3,7 @@ import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
 import 'package:flutter_talk_mar_2019/pages/gif_border_page.dart';
 import 'package:flutter_talk_mar_2019/pages/gif_page.dart';
 import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
+import 'package:flutter_talk_mar_2019/pages/images_blend_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
@@ -40,9 +41,13 @@ class _HomePageState extends State<HomePage> {
     MenuItem(
         index: 4,
         icon: Icons.dashboard,
-        text: "Images. Revisited.",
+        text: "Images - Revisited",
         page: ImagesRevisitedPage()),
-    MenuItem(index: 5, icon: Icons.access_alarm, text: "", page: null),
+    MenuItem(
+        index: 5,
+        icon: Icons.access_alarm,
+        text: "Images - Blend",
+        page: ImagesBlendPage()),
     MenuItem(index: 6, icon: Icons.keyboard_hide, text: "", page: null),
     MenuItem(index: 7, icon: Icons.battery_charging_full, text: "", page: null),
     MenuItem(index: 8, icon: Icons.rate_review, text: "", page: null),
