@@ -26,6 +26,7 @@ flutter:
     - images/flutter_logo_no_background.png
     - images/cat_tongue.gif
     - images/tears_logo.jpeg
+    - images/dogincar.jpg
 
   fonts:
     - family: Merienda

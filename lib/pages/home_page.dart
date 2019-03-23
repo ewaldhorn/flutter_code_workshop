@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_talk_mar_2019/pages/clipping_page.dart';
 import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
 import 'package:flutter_talk_mar_2019/pages/container_page.dart';
 import 'package:flutter_talk_mar_2019/pages/controls_page.dart';
@@ -9,6 +10,7 @@ import 'package:flutter_talk_mar_2019/pages/images_blend_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
 import 'package:flutter_talk_mar_2019/pages/snacks_page.dart';
+import 'package:flutter_talk_mar_2019/pages/stateful_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
 import 'package:flutter_talk_mar_2019/pages/text_page.dart';
 
@@ -74,8 +76,16 @@ class _HomePageState extends State<HomePage> {
         icon: Icons.headset,
         text: "Stateless Page",
         page: StatelessPage()),
-    MenuItem(index: 11, icon: Icons.edit, text: "", page: null),
-    MenuItem(index: 12, icon: Icons.map, text: "", page: null),
+    MenuItem(
+        index: 11,
+        icon: Icons.edit,
+        text: "Stateful Page",
+        page: StatefulPage()),
+    MenuItem(
+        index: 12,
+        icon: Icons.map,
+        text: "Image Clipping",
+        page: ClippingPage()),
     MenuItem(index: 13, icon: Icons.memory, text: "", page: null),
     MenuItem(
         index: 14,
