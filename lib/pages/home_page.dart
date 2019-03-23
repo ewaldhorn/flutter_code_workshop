@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_talk_mar_2019/pages/canvas_page.dart';
 import 'package:flutter_talk_mar_2019/pages/clipping_page.dart';
 import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
 import 'package:flutter_talk_mar_2019/pages/container_page.dart';
@@ -97,6 +98,11 @@ class _HomePageState extends State<HomePage> {
         icon: Icons.move_to_inbox,
         text: "Colour Picker",
         page: ColourPickerPage()),
+    MenuItem(
+        index: 15,
+        icon: Icons.format_paint,
+        text: "Canvas!",
+        page: CanvasPage())
   ];
 
   void drawerTogglePressed() => scaffoldStateKey.currentState.openDrawer();
