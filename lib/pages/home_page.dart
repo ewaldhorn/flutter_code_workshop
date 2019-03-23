@@ -6,7 +6,9 @@ import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_blend_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
+import 'package:flutter_talk_mar_2019/pages/snacks_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
+import 'package:flutter_talk_mar_2019/pages/text_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -48,8 +50,16 @@ class _HomePageState extends State<HomePage> {
         icon: Icons.access_alarm,
         text: "Images - Blend",
         page: ImagesBlendPage()),
-    MenuItem(index: 6, icon: Icons.keyboard_hide, text: "", page: null),
-    MenuItem(index: 7, icon: Icons.battery_charging_full, text: "", page: null),
+    MenuItem(
+        index: 6,
+        icon: Icons.keyboard_hide,
+        text: "Time for Snacks!",
+        page: SnacksPage()),
+    MenuItem(
+        index: 7,
+        icon: Icons.battery_charging_full,
+        text: "Texting",
+        page: TextPage()),
     MenuItem(index: 8, icon: Icons.rate_review, text: "", page: null),
     MenuItem(index: 9, icon: Icons.call_end, text: "", page: null),
     MenuItem(

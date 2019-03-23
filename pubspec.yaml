@@ -27,3 +27,7 @@ flutter:
     - images/cat_tongue.gif
     - images/tears_logo.jpeg
 
+  fonts:
+    - family: Merienda
+      fonts:
+        - asset: assets/merienda_regular.ttf
