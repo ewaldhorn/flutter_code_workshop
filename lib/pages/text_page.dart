@@ -149,8 +149,7 @@ class TextPage extends StatelessWidget {
               style: TextStyle(
                   fontSize: fontSize - 15,
                   color: Colors.deepPurple,
-                  letterSpacing: 2.0,
-                  wordSpacing: 2.0),
+                  letterSpacing: 2.0),
               children: [
             TextSpan(text: 'TEARS'),
             TextSpan(text: 'Animal', style: TextStyle(color: Colors.orange)),

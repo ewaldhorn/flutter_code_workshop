@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
+import 'package:flutter_talk_mar_2019/pages/container_page.dart';
+import 'package:flutter_talk_mar_2019/pages/controls_page.dart';
 import 'package:flutter_talk_mar_2019/pages/gif_border_page.dart';
 import 'package:flutter_talk_mar_2019/pages/gif_page.dart';
 import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
@@ -60,8 +62,13 @@ class _HomePageState extends State<HomePage> {
         icon: Icons.battery_charging_full,
         text: "Texting",
         page: TextPage()),
-    MenuItem(index: 8, icon: Icons.rate_review, text: "", page: null),
-    MenuItem(index: 9, icon: Icons.call_end, text: "", page: null),
+    MenuItem(
+        index: 8,
+        icon: Icons.rate_review,
+        text: "Containers",
+        page: ContainerPage()),
+    MenuItem(
+        index: 9, icon: Icons.call_end, text: "Controls", page: ControlsPage()),
     MenuItem(
         index: 10,
         icon: Icons.headset,
