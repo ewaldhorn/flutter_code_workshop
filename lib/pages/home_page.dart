@@ -16,6 +16,7 @@ import 'package:flutter_talk_mar_2019/pages/snacks_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateful_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
 import 'package:flutter_talk_mar_2019/pages/text_page.dart';
+import 'package:flutter_talk_mar_2019/pages/the_car_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -108,7 +109,12 @@ class _HomePageState extends State<HomePage> {
         index: 16,
         icon: Icons.settings_applications,
         text: "Dialogs",
-        page: DialogsPage())
+        page: DialogsPage()),
+    MenuItem(
+        index: 17,
+        icon: Icons.directions_car,
+        text: "The Car!",
+        page: TheCarPage())
   ];
 
   void drawerTogglePressed() => scaffoldStateKey.currentState.openDrawer();
