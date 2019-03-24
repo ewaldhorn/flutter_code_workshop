@@ -4,6 +4,7 @@ import 'package:flutter_talk_mar_2019/pages/clipping_page.dart';
 import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
 import 'package:flutter_talk_mar_2019/pages/container_page.dart';
 import 'package:flutter_talk_mar_2019/pages/controls_page.dart';
+import 'package:flutter_talk_mar_2019/pages/dialogs_page.dart';
 import 'package:flutter_talk_mar_2019/pages/gif_border_page.dart';
 import 'package:flutter_talk_mar_2019/pages/gif_page.dart';
 import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
@@ -102,7 +103,12 @@ class _HomePageState extends State<HomePage> {
         index: 15,
         icon: Icons.format_paint,
         text: "Canvas!",
-        page: CanvasPage())
+        page: CanvasPage()),
+    MenuItem(
+        index: 16,
+        icon: Icons.settings_applications,
+        text: "Dialogs",
+        page: DialogsPage())
   ];
 
   void drawerTogglePressed() => scaffoldStateKey.currentState.openDrawer();

@@ -1,10 +1,12 @@
 # flutter_talk_mar_2019
 
-A new Flutter application.
+The companion application for my talk.
+
+Contains various examples of some ways of doing common things in Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for learning about Flutter applications.
 
 A few resources to get you started if this is your first Flutter project:
 
