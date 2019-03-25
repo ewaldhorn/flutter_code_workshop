@@ -1,7 +1,7 @@
 name: flutter_talk_mar_2019
 description: Sample Flutter application for my March 2019 talk.
 
-version: 1.0.0+4
+version: 1.0.0+5
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
