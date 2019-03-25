@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-
+  url_launcher: ^5.0.2
   audioplayers: ^0.7.8
 
 dev_dependencies:
@@ -30,6 +30,8 @@ flutter:
     - images/tears_logo.jpeg
     - images/dogincar.jpg
     - images/lil_car.png
+    - images/no_profile_female.jpeg
+    - images/tears_extra_large.jpg
     - assets/pimpoy.mp3
     - assets/off_limits.mp3
 

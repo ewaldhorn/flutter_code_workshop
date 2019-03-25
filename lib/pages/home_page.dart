@@ -11,8 +11,10 @@ import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_blend_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_page.dart';
 import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
+import 'package:flutter_talk_mar_2019/pages/modal_bottom_sheet_page.dart';
 import 'package:flutter_talk_mar_2019/pages/music_page.dart';
 import 'package:flutter_talk_mar_2019/pages/snacks_page.dart';
+import 'package:flutter_talk_mar_2019/pages/standard_bottom_sheet_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateful_page.dart';
 import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
 import 'package:flutter_talk_mar_2019/pages/text_page.dart';
@@ -113,8 +115,18 @@ class _HomePageState extends State<HomePage> {
     MenuItem(
         index: 17,
         icon: Icons.directions_car,
-        text: "The Car!",
-        page: TheCarPage())
+        text: "The Car",
+        page: TheCarPage()),
+    MenuItem(
+        index: 18,
+        icon: Icons.style,
+        text: "Bottoms Up",
+        page: StandardBottomSheetPage()),
+    MenuItem(
+        index: 19,
+        icon: Icons.vertical_align_bottom,
+        text: "Sheets Galore",
+        page: ModalBottomSheetPage())
   ];
 
   void drawerTogglePressed() => scaffoldStateKey.currentState.openDrawer();
