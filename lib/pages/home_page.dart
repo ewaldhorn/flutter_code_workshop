@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_talk_mar_2019/pages/canvas_ii_page.dart';
 import 'package:flutter_talk_mar_2019/pages/canvas_page.dart';
 import 'package:flutter_talk_mar_2019/pages/clipping_page.dart';
 import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
@@ -126,7 +127,12 @@ class _HomePageState extends State<HomePage> {
         index: 19,
         icon: Icons.vertical_align_bottom,
         text: "Sheets Galore",
-        page: ModalBottomSheetPage())
+        page: ModalBottomSheetPage()),
+    MenuItem(
+        index: 20,
+        icon: Icons.verified_user,
+        text: "The limit",
+        page: CanvasIIPage())
   ];
 
   void drawerTogglePressed() => scaffoldStateKey.currentState.openDrawer();
