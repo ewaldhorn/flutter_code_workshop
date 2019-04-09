@@ -1,6 +1,6 @@
-# flutter_talk_mar_2019
+# Flutter Workshop Code
 
-The companion application for my talk.
+Companion code for my Flutter workshops.
 
 Contains various examples of some ways of doing common things in Flutter.
 
