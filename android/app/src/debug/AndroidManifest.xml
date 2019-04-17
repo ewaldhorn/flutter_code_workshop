@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nofuss.co.za.flutter_talk_mar_2019">
+    package="nofuss.co.za.flutter_code_workshop">
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->

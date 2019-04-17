@@ -1,4 +1,4 @@
-package nofuss.co.za.flutter_talk_mar_2019;
+package nofuss.co.za.flutter_code_workshop;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
