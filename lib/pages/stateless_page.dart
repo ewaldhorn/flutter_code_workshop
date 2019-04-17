@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_talk_mar_2019/widgets/page_background_image.dart';
+import 'package:flutter_code_workshop/widgets/page_background_image.dart';
 
 class StatelessPage extends StatelessWidget {
   @override

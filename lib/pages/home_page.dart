@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_talk_mar_2019/pages/canvas_ii_page.dart';
-import 'package:flutter_talk_mar_2019/pages/canvas_page.dart';
-import 'package:flutter_talk_mar_2019/pages/clipping_page.dart';
-import 'package:flutter_talk_mar_2019/pages/colour_picker_page.dart';
-import 'package:flutter_talk_mar_2019/pages/container_page.dart';
-import 'package:flutter_talk_mar_2019/pages/controls_page.dart';
-import 'package:flutter_talk_mar_2019/pages/dialogs_page.dart';
-import 'package:flutter_talk_mar_2019/pages/gif_border_page.dart';
-import 'package:flutter_talk_mar_2019/pages/gif_page.dart';
-import 'package:flutter_talk_mar_2019/pages/hello_world_page.dart';
-import 'package:flutter_talk_mar_2019/pages/images_blend_page.dart';
-import 'package:flutter_talk_mar_2019/pages/images_page.dart';
-import 'package:flutter_talk_mar_2019/pages/images_revisited_page.dart';
-import 'package:flutter_talk_mar_2019/pages/modal_bottom_sheet_page.dart';
-import 'package:flutter_talk_mar_2019/pages/music_page.dart';
-import 'package:flutter_talk_mar_2019/pages/snacks_page.dart';
-import 'package:flutter_talk_mar_2019/pages/standard_bottom_sheet_page.dart';
-import 'package:flutter_talk_mar_2019/pages/stateful_page.dart';
-import 'package:flutter_talk_mar_2019/pages/stateless_page.dart';
-import 'package:flutter_talk_mar_2019/pages/text_page.dart';
-import 'package:flutter_talk_mar_2019/pages/the_car_page.dart';
+import 'package:flutter_code_workshop/pages/canvas_ii_page.dart';
+import 'package:flutter_code_workshop/pages/canvas_page.dart';
+import 'package:flutter_code_workshop/pages/clipping_page.dart';
+import 'package:flutter_code_workshop/pages/colour_picker_page.dart';
+import 'package:flutter_code_workshop/pages/container_page.dart';
+import 'package:flutter_code_workshop/pages/controls_page.dart';
+import 'package:flutter_code_workshop/pages/dialogs_page.dart';
+import 'package:flutter_code_workshop/pages/gif_border_page.dart';
+import 'package:flutter_code_workshop/pages/gif_page.dart';
+import 'package:flutter_code_workshop/pages/hello_world_page.dart';
+import 'package:flutter_code_workshop/pages/images_blend_page.dart';
+import 'package:flutter_code_workshop/pages/images_page.dart';
+import 'package:flutter_code_workshop/pages/images_revisited_page.dart';
+import 'package:flutter_code_workshop/pages/modal_bottom_sheet_page.dart';
+import 'package:flutter_code_workshop/pages/music_page.dart';
+import 'package:flutter_code_workshop/pages/snacks_page.dart';
+import 'package:flutter_code_workshop/pages/standard_bottom_sheet_page.dart';
+import 'package:flutter_code_workshop/pages/stateful_page.dart';
+import 'package:flutter_code_workshop/pages/stateless_page.dart';
+import 'package:flutter_code_workshop/pages/text_page.dart';
+import 'package:flutter_code_workshop/pages/the_car_page.dart';
 
 class HomePage extends StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_talk_mar_2019/pages/home_page.dart';
+import 'package:flutter_code_workshop/pages/home_page.dart';
 
 void main() {
   // Lock the app in portrait mode, just, because.

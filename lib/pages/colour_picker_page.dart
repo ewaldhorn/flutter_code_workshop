@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_talk_mar_2019/picker/flutter_hsvcolor_picker.dart';
+import 'package:flutter_code_workshop/picker/flutter_hsvcolor_picker.dart';
 
 class ColourPickerPage extends StatefulWidget {
   @override
